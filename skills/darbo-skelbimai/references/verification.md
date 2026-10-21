@@ -1,22 +1,19 @@
-# Skelbimo aktyvumo patikros protokolas
+# Aktyvumo patikra (v3)
 
-Visada pranešk **ką tikrinai**, ne tik išvadą. Patikros laikas – su laiko zona.
+## Patvirtinimo lygiai
+- **Patvirtintai aktyvus:** atvertas konkretaus darbo individualus puslapis, sutampa darbdavys, pavadinimas, miestas; oficialus ar portalo puslapis aiškiai sako, kad paraiškos priimamos, **arba** ateities terminas derinamas su patikrintu veikiančiu kandidatavimo veiksmu. Užrašas „Apply“ be papildomo patikrinimo nepakanka.
+- **Pasibaigęs:** aiškiai nebepriimamos paraiškos arba patikimas terminas praeityje.
+- **Nepatvirtintas:** tik paieškos rezultatas, užblokuotas portalas, nematomas kandidatavimo būdas, neaiškūs duomenys ar prieštaringas darbdavio ir portalo turinys.
 
-## Būsenos
-- **Patvirtintai aktyvus**: individualus puslapis atidarytas; pareigos ir įmonė atitinka; **aiškiai nurodyta, kad paraiškos priimamos**, arba galiojimo terminas ateityje **ir** patvirtintas veikiantis kandidatavimo veiksmas. Vien „Apply“ užrašas be jo veikimo arba vien būsimas terminas nebūtinai patvirtina aktyvumą.
-- **Pasibaigęs**: darbdavys / portalas aiškiai rodo, kad paraiškos nebepriimamos, skelbimas uždarytas arba patikimas terminas praėjęs.
-- **Nepatvirtintas**: tik paieškos ištrauka, neprieinamas individualus puslapis, CAPTCHA, prisijungimo kliūtis, nėra kandidatuoti leidžiančio įrodymo, neaiški data ar prieštaringi signalai.
+Darbdavio pagrindinio karjeros puslapio egzistavimas **nėra** konkretaus skelbimo aktyvumo įrodymas. Neįmanomas prisijungimas nėra įrodymas, kad skelbimas pasibaigęs. Jei portalo skelbimas senas arba uždarytas, bet oficialiame puslapyje yra panaši pozicija, prieš laikant ją aktyvia įsitikink, kad tai *tas pats* darbo pasiūlymas; kitu atveju pateik kaip atskirą naują poziciją.
 
-Jei yra prieštaravimas tarp portalo ir darbdavio, venk „patvirtintai aktyvus“ kol neišspręsi neatitikimo. Paieškos rezultato ištrauka, HTTP 200, SEO žyma arba skelbimo tekstas savaime **nėra** pakankamas aktyvumo įrodymas. Tik peržiūrėtas, bet neįvykdytas kandidatavimo mygtukas leidžia daugiausia įvertinti indikaciją – nebūtinai užtikrina galimybę pateikti paraišką. Neatlik faktinio kandidatavimo be leidimo.
+## Kiekvienam skelbimui užrašyk
+- patikros laiką su Europe/Vilnius zona;
+- pirminio portalo ir darbdavio individualaus puslapio URL (jei rastas);
+- įrodymus, jog darbdavys, pareigos ir lokacija sutampa;
+- paskelbimo/galiojimo datas arba „nenurodyta“;
+- atlyginimo valiutą, laikotarpį, bruto/neto arba „nenurodyta“;
+- būseną, paraiškų priėmimo įrodymą ir visas prieigos kliūtis.
 
-## Būtinas patikros žurnalas kiekvienam pasiūlymui
-- tiesioginis URL ir šaltinio tipas (oficialus darbdavys / darbo portalas);
-- paskutinio patikrinimo laikas Lietuvos laiku;
-- užfiksuota aktyvumo arba pasibaigimo frazė ir jos vieta;
-- patikrinti pareigos, darbdavys, miestas;
-- atlyginimo intervalas, valiuta, periodas, bruto/neto tik jei aišku;
-- paskelbimo data ir terminas arba „nenurodyta“;
-- statusas ir neaiškumai.
-
-## Kai kvota nesurenkama
-Pakartok paiešką alternatyviais pareigų sinonimais, platesniais šaltiniais ir oficialiais darbdavių puslapiais. Nekeisk griežtų vartotojo filtrų be leidimo. Nurodyk, kiek pasiūlymų peržiūrėta, kiek atmesta ir kodėl; nekelk nepatvirtintų į patvirtintus vien dėl skaičiaus.
+## Jei nėra 10 patvirtintų
+Plėsk paieškos raktažodžius ir portalo / darbdavio šaltinius, ne vartotojo ribas. Neprikurk skelbimų ir nepristatyk nepatikrintų kaip aktyvių.
