@@ -1,0 +1,23 @@
+{
+  "skill_name": "miestu-oras",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Koks oras dabar penkiuose didžiausiuose Lietuvos miestuose?",
+      "expected_output": "Penkių miestų artimiausio laiko prognozė lentelėje, aiškiai pažymėta kaip prognozė, ne matavimai.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Palygink Vilniaus, Kauno, Klaipėdos, Šiaulių ir Panevėžio temperatūras pagal meteo.lt.",
+      "expected_output": "Penki miestai, temperatūros °C, sąlygos ir prognozės laikas Europe/Vilnius.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Pateik miestu-oras; jeigu meteo.lt nepasiekiamas, neišgalvok oro.",
+      "expected_output": "Nepasiekiamumas aiškiai nurodomas, trūkstamos reikšmės nepakeičiamos spėjimais.",
+      "files": []
+    }
+  ]
+}
