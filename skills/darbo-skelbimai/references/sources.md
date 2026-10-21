@@ -1,23 +1,16 @@
-# Paieškos strategija ir šaltiniai (v2)
+# Paieškos šaltiniai ir strategija (v3)
 
-## Pirmoji banga: tikslūs pareigų pavadinimai
-- [CVbankas](https://www.cvbankas.lt/)
-- [CV-Online](https://www.cvonline.lt/)
-- [LinkedIn Jobs](https://www.linkedin.com/jobs/)
-- [Užimtumo tarnyba](https://uzt.lt/)
-- Oficialūs darbdavių karjeros puslapiai (ypač svarbūs, jei kitur pateikiama sena kopija).
+Ieškok aktualių pasiūlymų [CVbankas](https://www.cvbankas.lt/), [CV-Online](https://www.cvonline.lt/), [LinkedIn Jobs](https://www.linkedin.com/jobs/), [Užimtumo tarnyba](https://uzt.lt/) ir darbdavių oficialiuose karjeros puslapiuose.
 
-Ieškok keliais raktažodžiais, ne vienu portalu. Ieškok lietuvių ir anglų kalbomis. Duomenų šaltiniai keičiasi ir ne visi prieinami agentams.
+## Papildomi bandymai
+- Pareigos lietuviškai: logistikos vadovas, transporto vadovas, ekspedicijos vadovas, importo vadovas, tiekimo grandinės vadovas, sandėlių vadovas.
+- Angliškai: head of logistics, transport manager, freight forwarding manager, supply chain manager, operations manager, distribution manager.
+- Jei portale matomas darbdavys, paieškoje naudok `site:<oficialus-domenas> careers <pareigos>`, įmonės karjeros navigaciją, paiešką pagal tikslią poziciją ir vietą. Iš pradžių patvirtink, kad domenas tikrai priklauso darbdaviui.
+- Tikrindamas galimą darbą darbdavio svetainėje, vykdyk [employer-check.md](employer-check.md).
 
-## Antroji banga, kai patvirtintų mažiau nei 5
-1. Paiešką papildyk `logistikos padalinio vadovas`, `sandėlių vadovas`, `distribution manager`, `freight forwarding manager`, `head of supply chain`, `import export manager` (tik jeigu atitinka vartotojo kompetenciją).
-2. Naudok paieškos variklio `site:` operatorių ieškoti pavienių portalo ir oficialių darbdavių skelbimų; po to būtinai atverk tiesioginį įrašą.
-3. Tikrink užsienio įmonių Lietuvos padalinių karjeros puslapius; nedaryk prielaidos, kad užsienyje skelbiamas darbas yra Lietuvoje.
-4. Reitinguok pagal atitikimą, aktyvumo įrodymą, atlyginimą ir duomenų šviežumą. Nešvelnink aiškių filtrų, pvz., „tik Kaune“ ar „bent 3 500 bruto“.
-
-## Informacijos kokybė
-- Indeksavimo datos **nėra** paskelbimo datos.
-- Nenurodyto atlyginimo nepaversk jokiu išgalvotu intervalu ir nespėk bruto/neto.
-- Tie patys darbdavio + pareigų + miesto skelbimai keliuose portaluose gali būti dublikatai.
-- Respektuok robots.txt, naudojimosi taisykles, prisijungimą ir CAPTCHA. Nenaudok nepatikrintų API, neskenuok svetainių agresyviai.
-- Jei prieiga neveikia, pažymėk paieškos ribas ir nesakyk, kad rezultato nerasta visoje rinkoje.
+## Ribos
+- Nenaudok Google indeksavimo laiko kaip paskelbimo datos.
+- Jei portalas neprieinamas, žymėk patikros spragą; nedaryk išvados, kad skelbimų nėra.
+- Nekeisk vartotojo geografinės ar atlyginimo ribos vien todėl, kad rezultatų mažai.
+- Neišgalvok atlyginimo, bruto/neto tipo, termino ar nuorodų.
+- Gerbk svetainių taisykles, neapeidinėk CAPTCHA.
