@@ -1,0 +1,4 @@
+interface:
+  display_name: "Darbo skelbimai"
+  short_description: "Randa ir tikrina aktualius darbo pasiūlymus Lietuvoje"
+  default_prompt: "Rask 5–10 aktualių logistikos, transporto ir operacijų vadovų darbo skelbimų Lietuvoje, patikrink šaltinius ir pateik atlyginimus bei tiesiogines nuorodas."
