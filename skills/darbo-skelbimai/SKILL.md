@@ -1,30 +1,26 @@
 ---
 name: darbo-skelbimai
-description: Ieško ir tikrina aktualius darbo skelbimus Lietuvoje, ypač logistikos, transporto, importo, eksporto, tiekimo grandinės ir operacijų vadovų pozicijas. Naudok, kai vartotojas prašo „surask darbą“, „naujausi darbo skelbimai“, „vadovo pozicijos“, „darbo-skelbimai“, atlyginimų ar darbo pasiūlymų palyginimo. Rask 5–10 tinkamiausių aktyvių pasiūlymų su tiesioginėmis nuorodomis ir šaltiniais.
+description: Ieško ir patikrina naujausius Lietuvos darbo skelbimus; ypač logistikos, transporto, importo/eksporto, tiekimo grandinės bei operacijų vadovų pozicijas. Naudok ieškant darbo, aktualių darbo pasiūlymų, atlyginimų palyginimo, kai vartotojas sako „surask darbą“, „darbo-skelbimai“ ar „darbo skelbimai“. Plečia paiešką iki 5–10 skelbimų, skiria patvirtintai aktyvius nuo nepatvirtintų, pateikia tiesiogines nuorodas ir įrodymus.
 ---
 
-# Darbo skelbimai
+# Darbo skelbimai (v2)
 
-## Paskirtis
-Surink 5–10 naujausių ir tinkamiausių **patikrintų** darbo skelbimų. Pagal numatymą ieškok Lietuvoje logistikos, transporto, ekspedicijos, importo/eksporto, tiekimo grandinės ir operacijų vadovų darbo. Jeigu vartotojas pateikia kitas pareigas, regioną, kalbą, atlyginimo ribą ar darbo formą, taikyk jo sąlygas.
+## Tikslas
+Surask 5–10 tinkamų **patvirtintai aktyvių** individualių darbo pasiūlymų, kai tiek įmanoma patikrinti. Jokiu būdu neužpildyk kvotos fiktyviais, pasibaigusiais ar nepatikrintais įrašais. Numatytoji paieška: Lietuva; logistikos, transporto, ekspedicijos, supply chain, importo/eksporto ir operacijų vadovavimo pozicijos.
 
-## Darbo eiga
-1. Nustatyk paieškos datą ir laiką pagal `Europe/Vilnius`; nurodyk ją rezultate. Jei turi vartotojo CV arba aiškiai pateiktą darbo profilį, pritaikyk atranką; neišgalvok patirties.
-2. Naudok prieinamas interneto paieškos ir puslapių skaitymo priemones. Tikrink CVbankas, CV-Online, LinkedIn Jobs, Užimtumo tarnybą ir darbdavių karjeros puslapius pagal tai, kas prieinama. Šaltinių ir paieškos taktika aprašyta [references/sources.md](references/sources.md). Nesinaudok neveikiančiais ar nepatvirtintais tariamais API.
-3. Ieškok lietuviškomis ir angliškomis frazėmis, pvz.: `logistikos vadovas`, `transporto vadovas`, `ekspedicijos vadovas`, `tiekimo grandinės vadovas`, `operations manager`, `head of logistics`, `supply chain manager`. Papildyk sinonimais, filtruok pagal pageidaujamą miestą.
-4. Atidaryk **kiekvieno** siūlomo skelbimo individualų puslapį. Patikrink pareigas, darbdavį, vietovę, atlyginimą, publikavimo / galiojimo datą, galimą nuotolinį ar hibridinį darbą ir tiesioginę nuorodą. Jeigu puslapis neprieinamas arba galiojimas neaiškus, aiškiai pažymėk **nepatvirtinta** ir netrauk į „patvirtintai aktyvių“ sąrašą. Paieškos rezultatų ištraukos nėra pakankamas aktyvumo įrodymas.
-5. Nepriskirk atlyginimui bruto/neto statuso, jeigu neparašyta. Nurodyk `bruto`, `neto` arba `nenurodyta`. Jei atlyginimo nėra, rašyk `nenurodytas`. Neskaičiuok „į rankas“ be mokesčių prielaidų.
-6. Deduplikuok pagal skelbimo URL, darbdavį ir pareigas (skirtingose svetainėse dubliuoti įrašai suvedami į vieną). Netrauk pasibaigusių skelbimų, išskyrus vartotojui aiškiai prašant istorijos. Atrink 5–10 tinkamiausių; jeigu patvirtintų mažiau, pateik tiek, kiek radai, nurodydamas paieškos ribas.
-7. Įvertink tinkamumą pagal **konkrečius skelbimo reikalavimus** ir žinomą vartotojo profilį, nurodyk vieną trumpą pagrindimą. Atskirk šaltinio faktus nuo interpretacijos.
-8. Grąžink lentelę: **Pareigos | Įmonė | Miestas / darbo forma | Atlyginimas (bruto/neto) | Paskelbta / galioja iki | Tinkamumas | Nuoroda**. Po lentele pateik 2–3 prioritetines kandidatavimo rekomendacijas ir paieškos datą. Jei informacijos nepakanka, nekurk fiktyvių skelbimų, datų ar URL.
-9. Nesikandidatuok, neskelbk CV ir nesiųsk žinučių be atskiro aiškaus vartotojo nurodymo.
+## Veiksmų seka
+1. Užfiksuok paieškos laiką Lietuvos laiku (`Europe/Vilnius`), vartotojo pareigų, regiono, darbo formos ir atlyginimo apribojimus. Jei vartotojo patirtis nežinoma, nekurk jos. Jei nenurodyta, atlyginimas nėra privalomas filtras.
+2. Perskaityk [references/sources.md](references/sources.md) ir naudok veikiančią interneto paiešką, darbo paieškos įrankius bei individualių skelbimų puslapių atvėrimą. Tikrink CVbankas, CV-Online, LinkedIn Jobs, UŽT, darbdavių karjeros puslapius ir kitus rastus patikimus šaltinius. Netvirtink, kad portalas patikrintas, jeigu paieška jame nepavyko.
+3. Ieškok dviem kalbomis: `logistikos vadovas`, `transporto skyriaus vadovas`, `ekspedicijos vadovas`, `tiekimo grandinės vadovas`, `pirkimų ir logistikos vadovas`, `importo vadovas`, `operations manager`, `head of logistics`, `supply chain manager`, `transport manager`, `warehouse operations manager`. Pradėk nuo tikslių pozicijų; ieškok papildomais sinonimais ir darbdavių puslapiuose, jeigu randi mažiau nei 5 patvirtintus skelbimus. Neatlaisvink vartotojo aiškiai nustatytų miestų, atlyginimo ar pareigų filtrų be leidimo.
+4. Atverk **kiekvieną** individualų skelbimą, patikrink URL, darbdavį, pareigas, vietą, darbo formą, atlyginimo rūšį, paskelbimo ir galiojimo datas, kandidatavimo galimybę. Atlik konkretaus skelbimo būsenos klasifikaciją pagal [references/verification.md](references/verification.md). Tik „patvirtintai aktyvus“ skelbimas gali patekti į pagrindinę lentelę.
+5. Aptikęs skirtinguose portaluose dubliuotus įrašus, sujunk pagal normalizuotą URL ir darbdavį + pareigas + vietą. Pirmenybę teik darbdavio galiojančiam individualiam puslapiui; šaltinių skirtumus pažymėk. Jei nėra kandidatuoti leidžiančio patvirtinimo, nevadink skelbimo aktyviu.
+6. Pateik **atskiras** lenteles: (A) patvirtintai aktyvūs, (B) galbūt aktualūs, bet nepatvirtinti (ne daugiau kaip 5), tik jeigu jie naudingi. Pasibaigusius atmesk. Kiekvieno įrašo laukai: **Pareigos | Įmonė | Miestas / forma | Atlyginimas (bruto/neto/nenurodyta) | Paskelbta / galioja iki | Būsenos įrodymas | Tinkamumas | Tiesioginis URL**. Nenurodytas reikšmes vadink „nenurodyta“, nerašyk išgalvotų datų ir atlyginimų. Paieškos indeksavimo laikas nėra paskelbimo data.
+7. Nurodyk realų patikrintų aktyvių skelbimų skaičių (pvz. 3 iš tikslinių 10), tikrinimo datą/laiką, ieškotus portalus, kokios prieigos / filtrų kliūtys buvo, ir kodėl kvota galbūt nepasiekta. Rekomenduok 2–3 prioritetinius kandidatus, aiškiai atskirdamas faktą nuo savo vertinimo.
+8. Jei interneto arba individualių puslapių negali patikrinti, atvirai pranešk, kad **aktyvių skelbimų patvirtinti nepavyko**. Pateik paieškos užklausas arba portalo paieškos nuorodas, bet ne „aktyvių skelbimų“ imitaciją.
+9. Be papildomo aiškaus vartotojo nurodymo nesiųsk paraiškų, CV ar žinučių. Laikykis portalų sąlygų; neapeidinėk CAPTCHA ir prisijungimo.
 
-## Kokybės kontrolė
-- Kiekvienas skelbimas turi turėti atskirai patikrintą tiesioginį URL, darbdavį ir pareigas.
-- Nurodyk šaltinius; nevadink vien paieškos indekse matomo skelbimo „aktyviu“.
-- Nepainiok atlyginimo bruto su neto; nežinomus laukus žymėk kaip nežinomus.
-- Nurodyk paieškos ribas, jei dalis portalų neprieinami arba rezultatai nepilni.
-- Jei aplinka be naršyklės ar interneto paieškos įrankio, atvirai pranešk ribojimą, pateik užklausų nuorodas ar raktažodžius, bet **nekurk** „naujausių“ skelbimų iš atminties.
+## Pagalbinis validatorius
+Jei galima vykdyti Python, patikros būsenai ir dubliams naudok `scripts/validate_ads.py`; tai pagalbinė deterministinė biblioteka, **ne** autonominis naršymo ar tikro skelbimų aktyvumo įrodymo mechanizmas. Fakto `accepting_applications` ar `apply_action_visible` neįrašyk `True`, kol realiai nepatikrinai šaltinio.
 
-## Testavimas
-Naudok [evals/evals.json](evals/evals.json) su trijų tipų scenarijais: įprasta paieška, griežti filtrai, neprieinami / pasibaigę skelbimai. Vietinis statinis struktūros testas: `python -m unittest discover -s skills/darbo-skelbimai/evals -p 'test_*.py' -v` iš repozitorijos šaknies.
+## Testai
+Paleisk `python -m unittest discover -s skills/darbo-skelbimai/evals -p "test_*.py" -v` iš repozitorijos šaknies. Vertinimo situacijos aprašytos [evals/evals.json](evals/evals.json). Statiniai / vienetiniai testai nėra realios web paieškos pakaitalas.

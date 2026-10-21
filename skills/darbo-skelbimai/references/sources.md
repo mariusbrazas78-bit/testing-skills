@@ -1,17 +1,23 @@
-# Darbo pasiūlymų paieškos šaltiniai
+# Paieškos strategija ir šaltiniai (v2)
 
-Šaltinių sąrašas yra orientacinis, ne garantuoto prieinamumo sąrašas.
+## Pirmoji banga: tikslūs pareigų pavadinimai
+- [CVbankas](https://www.cvbankas.lt/)
+- [CV-Online](https://www.cvonline.lt/)
+- [LinkedIn Jobs](https://www.linkedin.com/jobs/)
+- [Užimtumo tarnyba](https://uzt.lt/)
+- Oficialūs darbdavių karjeros puslapiai (ypač svarbūs, jei kitur pateikiama sena kopija).
 
-- [CVbankas](https://www.cvbankas.lt/) – raktinių žodžių paieška, individualaus darbo skelbimo patikra.
-- [CV-Online Lietuva](https://www.cvonline.lt/) – darbo skelbimų paieška ir konkretus skelbimas.
-- [LinkedIn Jobs](https://www.linkedin.com/jobs/) – dažnai reikia prisijungti; jei negalima patikrinti, taip ir nurodyk.
-- [Užimtumo tarnyba](https://uzt.lt/) – vieši darbo pasiūlymai pagal prieinamumą.
-- Darbdavių oficialūs karjeros puslapiai – prioritetas galiojimo patvirtinimui, jei portalų duomenys prieštarauja.
+Ieškok keliais raktažodžiais, ne vienu portalu. Ieškok lietuvių ir anglų kalbomis. Duomenų šaltiniai keičiasi ir ne visi prieinami agentams.
 
-## Paieškos kokybės taisyklės
-1. Paieškos variklio ištrauka arba indeksavimo data nėra skelbimo paskelbimo data.
-2. „Naujausias“ reiškia **patikrintą paskelbimo datą**, jeigu tokia matoma. Jei nematoma, nerašyk išgalvotos datos ir rūšiuok tik pagal įrodomą tinkamumą.
-3. Jei galiojimas nenurodytas, tačiau individualus puslapis pasiekiamas, skelbimo aktyvumą žymėk „nepatvirtinta“, kol patikrinsi galimybę kandidatuoti arba darbdavio patvirtinimą.
-4. Pirmenybę teik tiesioginei individualaus skelbimo nuorodai, ne paieškos rezultatų ar pagrindiniam puslapiui.
-5. Svetainių naudojimo taisyklių ir robots.txt neapeidinėk; jokių prisijungimo ar CAPTCHA apėjimo būdų.
-6. Jeigu skelbimų daugiau nei 10, prioritetą nustatyk pagal pareigų atitiktį, vietą, aiškų galiojimą, atlyginimo informaciją ir atnaujinimo datą.
+## Antroji banga, kai patvirtintų mažiau nei 5
+1. Paiešką papildyk `logistikos padalinio vadovas`, `sandėlių vadovas`, `distribution manager`, `freight forwarding manager`, `head of supply chain`, `import export manager` (tik jeigu atitinka vartotojo kompetenciją).
+2. Naudok paieškos variklio `site:` operatorių ieškoti pavienių portalo ir oficialių darbdavių skelbimų; po to būtinai atverk tiesioginį įrašą.
+3. Tikrink užsienio įmonių Lietuvos padalinių karjeros puslapius; nedaryk prielaidos, kad užsienyje skelbiamas darbas yra Lietuvoje.
+4. Reitinguok pagal atitikimą, aktyvumo įrodymą, atlyginimą ir duomenų šviežumą. Nešvelnink aiškių filtrų, pvz., „tik Kaune“ ar „bent 3 500 bruto“.
+
+## Informacijos kokybė
+- Indeksavimo datos **nėra** paskelbimo datos.
+- Nenurodyto atlyginimo nepaversk jokiu išgalvotu intervalu ir nespėk bruto/neto.
+- Tie patys darbdavio + pareigų + miesto skelbimai keliuose portaluose gali būti dublikatai.
+- Respektuok robots.txt, naudojimosi taisykles, prisijungimą ir CAPTCHA. Nenaudok nepatikrintų API, neskenuok svetainių agresyviai.
+- Jei prieiga neveikia, pažymėk paieškos ribas ir nesakyk, kad rezultato nerasta visoje rinkoje.
