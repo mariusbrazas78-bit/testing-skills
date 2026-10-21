@@ -4,20 +4,41 @@
     {
       "id": 1,
       "prompt": "Surask 10 naujausių logistikos ir transporto vadovų darbo skelbimų Lietuvoje.",
-      "expected_output": "5–10 arba mažiau patvirtintų individualių skelbimų su tiesioginiais URL, atlyginimo bruto/neto žyma, darbo vieta, data ir šaltiniu; neprigalvoti įrašai.",
-      "files": []
+      "expected_output": "Dvi atskiros aktyvių ir nepatvirtintų lentelės, URL, būsena ir patikros įrodymai. Išplėsti sinonimai, jei rasta <5 aktyvių.",
+      "files": [],
+      "assertions": [
+        "Neužpildo 10 dirbtiniais skelbimais",
+        "Aiški aktyvumo žyma ir patikros laikas"
+      ]
     },
     {
       "id": 2,
-      "prompt": "Ieškau supply chain manager arba head of logistics Vilniuje, atlyginimas nuo 3500 EUR bruto. Pateik tik patikrintus aktyvius skelbimus.",
-      "expected_output": "Filtrai taikomi, atlyginimas tikrinamas pagal bruto, jei nerasta – aiškiai paaiškinama, neatlaisvinant apribojimų savavališkai.",
-      "files": []
+      "prompt": "Ieškau supply chain manager Vilniuje, bent 3500 EUR bruto. Neplėsk nei miesto, nei atlyginimo intervalo.",
+      "expected_output": "Griežti filtrai išlaikyti; neaiškus atlyginimas laikomas nepatvirtintu atitikimu.",
+      "files": [],
+      "assertions": [
+        "Nesusilpnina filtrų",
+        "Atskirtas bruto/neto"
+      ]
     },
     {
       "id": 3,
-      "prompt": "CVbankas neprieinamas, dalies skelbimų terminas jau pasibaigęs. Rask darbo pasiūlymus ir pateik patikrintus faktus.",
-      "expected_output": "Nepasiekiami ir pasibaigę skelbimai nevadinami aktyviais; naudojami kiti šaltiniai arba aiškiai nurodoma ribota paieška.",
-      "files": []
+      "prompt": "LinkedIn neleidžia atidaryti skelbimo, CVbankas rodo 'nebepriimame paraiškų', o kitame portale tas pats skelbimas dubliuojasi.",
+      "expected_output": "Nepasiekiamas = nepatvirtintas, uždarytas = pasibaigęs, dublikatai pašalinti.",
+      "files": [],
+      "assertions": [
+        "Uždarytas nėra aktyvus",
+        "Deduplikavimas"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Rask 10 vadovo pozicijų, bet iš 8 patikrintų tik 3 realiai priima kandidatus.",
+      "expected_output": "Pagrindinėje lentelėje tik 3, tiksliai paaiškintas trūkumas ir paieškos ribos.",
+      "files": [],
+      "assertions": [
+        "Nesukuria fiktyvių papildomų įrašų"
+      ]
     }
   ]
 }
