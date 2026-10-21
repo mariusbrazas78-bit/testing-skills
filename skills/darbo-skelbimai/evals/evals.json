@@ -1,0 +1,23 @@
+{
+  "skill_name": "darbo-skelbimai",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Surask 10 naujausių logistikos ir transporto vadovų darbo skelbimų Lietuvoje.",
+      "expected_output": "5–10 arba mažiau patvirtintų individualių skelbimų su tiesioginiais URL, atlyginimo bruto/neto žyma, darbo vieta, data ir šaltiniu; neprigalvoti įrašai.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Ieškau supply chain manager arba head of logistics Vilniuje, atlyginimas nuo 3500 EUR bruto. Pateik tik patikrintus aktyvius skelbimus.",
+      "expected_output": "Filtrai taikomi, atlyginimas tikrinamas pagal bruto, jei nerasta – aiškiai paaiškinama, neatlaisvinant apribojimų savavališkai.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "CVbankas neprieinamas, dalies skelbimų terminas jau pasibaigęs. Rask darbo pasiūlymus ir pateik patikrintus faktus.",
+      "expected_output": "Nepasiekiami ir pasibaigę skelbimai nevadinami aktyviais; naudojami kiti šaltiniai arba aiškiai nurodoma ribota paieška.",
+      "files": []
+    }
+  ]
+}
