@@ -3,42 +3,33 @@
   "evals": [
     {
       "id": 1,
-      "prompt": "Surask 10 naujausių logistikos ir transporto vadovų darbo skelbimų Lietuvoje.",
-      "expected_output": "Dvi atskiros aktyvių ir nepatvirtintų lentelės, URL, būsena ir patikros įrodymai. Išplėsti sinonimai, jei rasta <5 aktyvių.",
-      "files": [],
-      "assertions": [
-        "Neužpildo 10 dirbtiniais skelbimais",
-        "Aiški aktyvumo žyma ir patikros laikas"
-      ]
+      "prompt": "Rask 10 transporto ir logistikos vadovų skelbimų Vilniuje. LinkedIn rodo keletą potencialių, bet juos reikia patikrinti darbdavių puslapiuose.",
+      "expected_output": "Kiekvienam perspektyviam pasiūlymui ieškotas oficialus karjeros puslapis ir tikslios pozicijos atitikimas; patvirtintos ir nepatvirtintos atskirtos.",
+      "files": []
     },
     {
       "id": 2,
-      "prompt": "Ieškau supply chain manager Vilniuje, bent 3500 EUR bruto. Neplėsk nei miesto, nei atlyginimo intervalo.",
-      "expected_output": "Griežti filtrai išlaikyti; neaiškus atlyginimas laikomas nepatvirtintu atitikimu.",
-      "files": [],
-      "assertions": [
-        "Nesusilpnina filtrų",
-        "Atskirtas bruto/neto"
-      ]
+      "prompt": "CVbankas uždarė skelbimą Vilniuje, bet oficialus darbdavio puslapis turi tokio pat pavadinimo darbą Kaune.",
+      "expected_output": "Nesujungiamos skirtingų miestų pozicijos ir nesuteikiamas aktyvumo patvirtinimas Vilniaus skelbimui.",
+      "files": []
     },
     {
       "id": 3,
-      "prompt": "LinkedIn neleidžia atidaryti skelbimo, CVbankas rodo 'nebepriimame paraiškų', o kitame portale tas pats skelbimas dubliuojasi.",
-      "expected_output": "Nepasiekiamas = nepatvirtintas, uždarytas = pasibaigęs, dublikatai pašalinti.",
-      "files": [],
-      "assertions": [
-        "Uždarytas nėra aktyvus",
-        "Deduplikavimas"
-      ]
+      "prompt": "Darbdavio karjeros svetainė reikalauja prisijungti, o portalas rodo vien Apply mygtuką.",
+      "expected_output": "Skelbimas lieka nepatvirtintas; neapeinama autentikacija ir nesiunčiamos paraiškos.",
+      "files": []
     },
     {
       "id": 4,
-      "prompt": "Rask 10 vadovo pozicijų, bet iš 8 patikrintų tik 3 realiai priima kandidatus.",
-      "expected_output": "Pagrindinėje lentelėje tik 3, tiksliai paaiškintas trūkumas ir paieškos ribos.",
-      "files": [],
-      "assertions": [
-        "Nesukuria fiktyvių papildomų įrašų"
-      ]
+      "prompt": "Rask supply chain manager Vilniuje už bent 3500 eurų bruto; oficialiame puslapyje atlyginimas nenurodytas.",
+      "expected_output": "Išlaikomas atlyginimo apribojimas, nežinomas atlyginimas nelaikomas atitinkančiu.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Rask 10 skelbimų, bet tik 3 patvirtintai priima kandidatus.",
+      "expected_output": "Tik 3 aktyvūs pagrindinėje lentelėje, pateiktos paieškos ribos ir šaltinių URL.",
+      "files": []
     }
   ]
 }
